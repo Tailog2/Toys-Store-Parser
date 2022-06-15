@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+    <BaseOutputPath>bin\</BaseOutputPath>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.17.1" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\Services\Services.csproj" />
+    <ProjectReference Include="..\ToysStoreParser\ToysStoreParser.csproj" />
+  </ItemGroup>
+</Project>
